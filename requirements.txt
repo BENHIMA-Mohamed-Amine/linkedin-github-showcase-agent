@@ -1,4 +1,6 @@
 ipykernel
 pygithub
 langchain-community
+langchain-google-genai
+langgraph
 python-dotenv
