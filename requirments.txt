@@ -1,0 +1,4 @@
+ipykernel
+pygithub
+langchain-community
+python-dotenv
