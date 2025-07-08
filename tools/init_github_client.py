@@ -8,8 +8,9 @@ load_dotenv()
 
 os.environ["GITHUB_APP_ID"] = os.getenv("GITHUB_APP_ID", "")
 os.environ["GITHUB_APP_PRIVATE_KEY"] = os.getenv("GITHUB_APP_PRIVATE_KEY", "")
-os.environ["GITHUB_REPOSITORY"] = os.getenv("GITHUB_REPOSITORY", "")
+# os.environ["GITHUB_REPOSITORY"] = os.getenv("GITHUB_REPOSITORY", "")
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY", "")
+os.environ["GITHUB_ACCESS_TOKEN"] = os.getenv("GITHUB_ACCESS_TOKEN", "")
 
 # debug the environment variables
 # print("GITHUB_APP_ID:", os.getenv("GITHUB_APP_ID"))
