@@ -1,4 +1,7 @@
 .env
 .venv
 secrets
+.env
+.venv
+secrets
 __pycache__
