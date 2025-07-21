@@ -6,11 +6,6 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ipykernel",
-    "pygithub",
-    "langchain-community",
-    "langchain-google-genai", 
-    "langgraph",
     "python-dotenv",
-    "mcp[cli]",
-    "httpx"
+    "mcp[cli]"
 ]
