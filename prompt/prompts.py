@@ -9,7 +9,7 @@ def register_mc_prompt(mcp):
         prompt (str): The text of the prompt.
     """
     
-    @mcp.prompt
+    @mcp.prompt()
     def prompt_to_generate_linkedin_post() -> str:
         """
         prompt to generate a LinkedIn post about the project.
